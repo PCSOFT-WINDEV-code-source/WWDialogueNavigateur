@@ -1,0 +1,9 @@
+[INFOS]
+gaf=0
+title=WWDialogueNavigateur
+image=description.gif
+description=description.rtf
+source=0
+typesite=0
+[OBJECT]
+WWDialogueNavigateur.WWP=4096

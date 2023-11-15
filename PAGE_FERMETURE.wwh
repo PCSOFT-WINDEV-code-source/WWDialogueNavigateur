@@ -1,0 +1,96 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : PAGE_FERMETURE
+ major_version : 28
+ minor_version : 0
+ type : 65538
+ description : ""
+ subtype : 0
+page :
+ name : PAGE_FERMETURE
+ identifier : 0x256ac37a1231d8f1
+ internal_properties : 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
+ properties : {}
+ controls :
+  -
+    name : LIB_Fermeture_de_l_application
+    identifier : 0x2990355e05560ad0
+    internal_properties : CAAAAAgAAAC0LPXLpAQFyZxMnLHfcrwSxiBjZ1sjSdJQGYQXcz/6iP+gnlROoppgI8yHR8g+h21qRjSaxNubU6AZURWl5QHjh7dIVYWvL9C40/EFkO9Lm9z2cj9F4pmULN0relAHqhsbLvZTWoX0Hjl6oiDte7+sYO5JaUr5fvpMQIIXBuZozAQoFrdzuktx7nUDSta6Tvl3tWvE6efqXRNeQis34WwBGpE+PAJkB67b8usdrTDZSjprn7pxeMD5L/cWJUhfpr+vJIbm8V675dAVaybBkLmiTAJoSgOb2NBtQ+UJlgcZsj1mxllsJB4ML3Hs05utsQt2B8TSiJCTNbtirYGBTqP9KpEWvh45lfeFkcTnyBsqGGS5SzZwRwAUi3uUCPdfzVBhabbmn/8QZJAQWb76RGEZN7OPTjgvKRCExP4GMX4i7JzSK8GC7JF2DuWrK8ZbFcWQD/JhG2Ys8pgggUVGN7WpoDP+5kZcPAGwPhffC0qKuqg9lUL8fhUy5jWafes/+KMOjjusKDTbrXVxVe9ERRRMTYRAlxV+vCZuzBKbP7ximuRcgEPXLVFWEotYAsjYg5Y5V+ghgw0BTXn/oveVdkvtN0q4B6B45XYMPEfJ250JE3FGvrMc+hHh2H1MRnwxpiXD2Br3eElHfDtJdSeJJefyNd2ybo9CmcS6LacAQMX/NFoBN7og2QbkCfN0znp7pUZ4TlhoygyvF+PLxwrVN6xRH260J+thZNMqGzFCEwKxIAlDK8JsRQkq5R5/aBhx3Y0P/C3YZU6LbhyOb1yoAxTo2Hy5DAhVL7I7lH9LcOJacOlsZJylmgQ8L/2bh5gljY3eLN9GTXdHQq/wGUJLwMh0yNfYlnuKPXSvIveqGm1mqMICozceZ3eZKQAOhjdULNdp+hKWZiXLIzVRoKWbghq2YqG20OvgJgTwzYTybL9h53SOQ0HSR5X74wG0ds8/fVYEUGsUGmgmnuoYgtqrceR4xpmuYfSGY+INPyRLs1XMbzCWcol3oYJYd9gLbrBUcXqQPTWlmEojX5XL6npJ5vpFzsSiwcXPC5tlZjbzC4IETOAIBCdAx81SKVcc8v0CsnQVbXNf39sLPJ9E+jLM2QhmniuXoQk7pa7UdSqyi6N1Rxx680e8p3JHO2Jfnymeldo09ALQGD3hBhITO5p8EinPAd5fir0lT6N4O0Tu20Bcia9GV5ruZNu2hNih/fVpmNEW85P4CVAUtq7GByLjtvnLbjZtVAXSx2ZuJlI8gBV8OwVlAAUe80HK0bx9wDEUoVNemQnmiOdHz1wu7aScAJGWoGHCq6HSix5O6ZTSsvifY1U8KGEWyTyVQ4X7uzC1QdpaQ3BNP+YkOkdz7Zqsz6lE8uwzTeP10G+8BlubK48fGOcdLI8CIT9FVtzYnR5Ow3NjwEdIp7zWGTLbEs4yzl+chdLC66Oi1hbPWArBD0Ux8O8+Qvgg+VMoq23v8FA4Dpgm2Wyn6JBbjLajnqFXXRcKDOkcDbriAAerCHARYfzk/9HvJ0wBhyfO5T10sccXHwYh+qWSErJipRnUK4vF4crQ+NOk5DdQ5imxtAVWhnXdflQbIqEjRpMUSEpaX/48L+byfao59uWVh0/hfdsf
+    properties :
+     x : 157
+     y : 39
+     width : 314
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     alias : LIB_FERMETURE_DE_L_APPLICATION
+     p_codes : []
+ type : 1
+ languages :
+  - fr-FR
+ code_elements :
+  type_code : 38
+  p_codes :
+   -
+     type : 852300
+     enabled : false
+   -
+     type : 852017
+     enabled : false
+   -
+     type : 852119
+     enabled : false
+   -
+     type : 852298
+     role : N
+   -
+     code : |1+
+      navigateurferme()
+     type : 851999
+     role : N
+   -
+     type : 852000
+     role : N
+   -
+     type : 852232
+     enabled : false
+   -
+     type : 852167
+     enabled : false
+   -
+     type : 852169
+     role : N
+     enabled : false
+   -
+     type : 852225
+     role : N
+     enabled : false
+   -
+     type : 852227
+     enabled : false
+   -
+     type : 1310979
+     enabled : false
+   -
+     type : 852228
+     role : N
+     enabled : false
+   -
+     type : 852217
+     role : N
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : fermeture
+resources :
+ string_res :
+  identifier : 0x118542cf00079004
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+webification :
+ internal_properties : CAAAAAgAAACYzxT95H3qP7nIys4LqA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

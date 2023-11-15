@@ -1,0 +1,105 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WWDialogueNavigateur
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WWDialogueNavigateur
+    internal_properties : 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
+    configuration_id : 8553662754699578131
+    type : 2
+    generation_name : WWDialogueNavigateur.wdl
+    version : {}
+    language : 1
+    64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAAZ4SZUn+i57TmxxqR3etuAe6mSI8ynN0rdQwvRjnwb5buytw6Xb0biJ6xHqc6sTN3peUtaElA2yNwaFg==
+ elements :
+  identifier : 0x4b154317015a7da0
+  elements :
+   -
+     name : Procedures globales de WWDialogueNavigateur
+     identifier : 0x3f0435bc03d02e9b
+     internal_properties : CAAAAAgAAABwzqj0M2hAW2H1RqZ5l/vsLI/rswHpkYiKWGjS0UDUNJgGjRMP6S0pRvvl01ONdWtV3Q==
+     physical_name : .\Procedures globales de WWDialogueNavigateur.wdg
+     type : 7
+   -
+     name : Procédures_globales_de_WWDialogue_Navigateur
+     identifier : 0x3f0435bd7f0f2ee9
+     internal_properties : CAAAAAgAAACznSllthMuWqFNRTw4DiXOuLNi9MSnyB1UprGNBJZJxfZcDtN9pw4wW/k5RmmBPqW2
+     physical_name : .\Procedures_globales_de_WWDialogue_Navigateur.wwn
+     type : 65539
+   -
+     name : PAGE_SELECTEUR
+     identifier : 0x3f0435c028973254
+     internal_properties : CAAAAAgAAAANCWW5BnM7ZHwQ5UVY+MyZrTpwcLzMlZuKXHXNKBn902Wf0l6wCE7IIQbwyEi4QLAYGA==
+     physical_name : .\PAGE_SELECTEUR.wwh
+     type : 65538
+   -
+     name : PAGE_FERMETURE
+     identifier : 0x3f0435c6079437d2
+     internal_properties : CAAAAAgAAACY9kBcaxAYw4ktLg6RAgNcVAUjK4dfxxFKbHmJmkfVEz3FEp53QYWB7lNNq2tlHZN9hQ==
+     physical_name : .\PAGE_FERMETURE.wwh
+     type : 65538
+   -
+     name : PAGE_Menu
+     identifier : 0x3f0435be6e5e310c
+     internal_properties : CAAAAAgAAABZNQEFop+XmKA0mRmM3tSZeRpEhCSUS4J2qS/TUq9vqVflzFTMNHLsBTqkHOQc5NQ8xA==
+     physical_name : .\PAGE_Menu.wwh
+     type : 65538
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ common_generation_directory : true
+ wb_skin : 190 Evolution
+ wb_color_palette : GrayVolution
+ languages :
+  - fr-FR
+ wd_style_sheet : .\WWDialog.sty
+ wb_style_sheet : .\WWDIALOG.wws
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WWDialogueNavigateur
+     identifier : 0x4b1544b90010e096
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : WWDIALOG10
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

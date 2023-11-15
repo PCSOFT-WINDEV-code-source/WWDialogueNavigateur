@@ -1,0 +1,829 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : PAGE_SELECTEUR
+ major_version : 28
+ minor_version : 0
+ type : 65538
+ description : ""
+ subtype : 0
+page :
+ name : PAGE_SELECTEUR
+ identifier : 0x256ac38812670dad
+ internal_properties : CAAAAAgAAADICA2LooOQRQt+tTsLix5HimAkn0TI0fqzg/9wFLpZSCUyp2CQJWO7f5hNO+FenR/aXX5XdA96of3JtdRVDkbQgTOF0AqUoevybcQl22grnmhptA8MEIwvLdYC1a67iCHF0fbYLkOYQ97ocJu2rXoJS3VNVVf/ZcDoo9/Iy7B2b0BonuHQiCXCfvJsMCDk81ImfoXkjlBIrbYS/xwVhA9NPjGy9wsZSvzpHSvJAr1eTnKVLf6s0tYLGgmx0jkcNxX32fsDY4ZMdZDnlIRk75WlMbUnOaEJGVEsqPhqbwYIpA4hagG9a2g+9czIf/ZHKqKn/BT1n1G+wItW0P2UpJyKxMZa8+3ex5BMPtYxHBNvhzqxT7AO/bQ9tczsA1iWapKKdLd2kmMbbH2F32rzlk6w13tN05N5tEcwLUYthf5WdUNTPKlMG3RWKNqJ4Nk4U1RCTKlk0jZPTR6rApCT0RcTcaurHxJv0m7Xu/JgxriCgIIsTOS4wsLhYyaKNIz+JmrYRtOHidGP8Ak5oeWfbZQXo2onsavxlRtr7QxUK0Cyd6oMWrNHq30rG+HufKTw1n/ugmomcNQD4uvE5mN6+W3NsNnhRstyH8wu3SK8YjuDtj70g4f7LxEL9byLjUHa8aUUxYwNS9JSYDVIV62WRUzfWPyVKUPD/IonUS9WSrvaVslPMZBpxG3o1O42mzRnS04/LbnlTs8Ap8KLTcOXWc94M3I7MyOYqvo3MfI2DHa02oD9kxcf+UwSUgGTvQxacePuNQylq3XWOifVRjeLTOUDStIeHbEqtTsnFAH/5g8juRNzL2wOTnTh4NsUPEZ3mefN67P5FKw4QzeaQosy065mKX1MNKUWYWRKv5l3Ki6qK8V15rBkZ2RJ5Ya8F5gu+oJBk9LT+HBp+rWwuCvEhqmViE2D/9sDaoRr3sAP2jBiABswvKDHHmW4O7sA424JNnwlaZZ2xUol5FoseJb5g+MVy2WdEuDXSeT7x8fhQtf+i/iKeAyUfkEjxEm//ftk4FZXdOEKD66JgtI+hv7DLugZ05lizobzkvsjXSFzWCvb475yQfrbaIq3EjNQLlqNZ3s3pfOUwE7bVHlYUX+vOdbkrmuZOeRxXvM28lpiVBTp3Gu1pBaihiAzFvjH0efAFSP1g0S5CUg3xts6BrhSLTE4dGXH/aN8bo1QBkEhwseVLbivu9XJOQVwkCwcvKizi/37wcO/0H3tZCn2uHHCJpD8Vix70RcE/LhtzYa28kGFye79jNdIOoemTXW1q+9xkG6y903j636oVXeN4HV+28QPe8m/IWtjvRi4wd8HiM+KRVe6F/4fq/7PK9F87d5zxq0IHu+JnwanHE7f4O/SDMr3B7W8Hxx5HSKUcTUuQqcHKj8AhPlhtjs9niqjqGbGwzi8hMbn3Mpn86euCVfKpqkBNTVWNutGJs1lyk68xff5ZGIA5T7Mqj3klt4coc2e8Zs/WJMJfAer2EKoBVGNp07gy6pG0cduSMG7nDZ1mFXGsPoBu2p9C3EfsY6FXfxJ7ryiL/Y7cnXeUPSCaGWspyvLxq8pXbZ1KX3XcVm0K4kHo+UByqXEHVXyug3tmN8ZcVqnhrF5B8cn9nff8AOCXXUPCSmvIsfiNPSoFmjV9eV4OGnghFTXIOzHZsnx0EABp4fWo7S/9UWihwe5wS06e4zLYCwyQJ0ZLjXLSrH96XcSNw9SbXMCcvtJjXo3TWE6E4f+fd0axUGYRiObdt8E3pj2sgNQURhyM3pCXbG9OoGqF0njPP7OYEbMl+U617LJit0ee1426yecuCTUe7FxvCKZ1gBAr53ND0RaCdCvktEzqFPJhUByh7j/zxd4lGSixdYrU0UEvKBqcgdIWQwS/zuzBGBv4Nad+Lq+xvYVfVw+2AvyJM3C/d0Xy7XJjxui878bdd8paJdDb8DdzSP29IGbvNaDH2uA5dktSfSc0u4JmpxUOOls147CAWrfw/YTdn39pkozK2Nc2ZATvi23t0eIWclqRR93s6Y2QtVK2s1TGHz0lt8SkaPmgfqXEDz4ZvJmMWK/MvhgPZAphcRd5UF8ZijM49dsCc42Dvpis83Kq4tcIxvuYndrp8CWF+TBDc+gBl0zWrAcRMovqPsDk4s2pfFKhK0DP4eqY/yGhLYSZ6xfjet+e9huxAnMILJOTzHPJRh8+MFaWqFtLvqqxzFR5wM+ckXJQy5gxCueSG1pNPjOx+LHrx4AEKJaE5c0C0mLbekpNQMzHdROOeTj+Ub2VbkCZrHkVg4JKBt3hsPxvDhFsxAJ1z33tt1a2EqRsshh7ANPIYlMO3KdtUAfnCmZQHElHIgfm6hvIYTOJbx62/HXXsHHU92fADimrKHHxUGTA6b0nbkTbftpTW3h+siuRDU9FN11fRk9EN+GODICAl8ELn5kIzjhDAYoue4aza8QWOUY6eylXkszemSDwEfcTZWu4uuQnnCEJ+2E496faT5YqNZsvmo9x+7AWaIWcLppZIvBSiRBBYKLzMF6/Yi07+w0Z4Xz+W3DXGLKdT0cx7PF1NJWHl/aWqy2qeee3nbWlbvWCNmFTYexsi7sdFbrIjldj8CBDmdann4VjV1VaeaCfgbuUFGXN9LPLxzxma5NigDhSdmA1so6xIddycng1vDmJu9VpsaK/b54d40dpABm/rwii+2JVmyheT7IGSSiE5bM1ChnWlLbOaGMnOTywTZVi0WldWzy5OHA/YcvB78t2V0oMBh93OkKqYxumIbx1hS89KrFjw2RhBQjBe1r2VCtjS9j/S4GT14DI+n3C9AYNLbj1hy9gyEF/a6M3PQPuBfS1aG+xxrpXB12qu/5YxUn+NHdH/4oelYQ9kzaDHT5bg2JpLoa3Ff1fm619IHZUDKplOi2KEt4SxTIo4eRoMLOPGTIpam7zhJ2CCz9kGcw5fU6RZFF/2tW4HAHDCyFF3CbOP7ttKWv/bIj4AwDvMctVC9t3QxQEOX3PLLMtCPO4G8KqrrknWeBSMTaoDdVz1utPxWIFPvLZoDdHESG3WfZVqyr2f5qqOSHlkoyh6OopR+aee1ROy39Q6E7IQIhpjQ4sWgH5pY7EchvcWKe9X+jt1o8BAS8pQFAor2W3xNoaovMihrl70JeHiMx4s2yqRw+5L9DJQYRhBW5Rqdvp4TKl6HqvU+709FoOS+s+1C1pHx+wC7a5yoIcHCkfNaqWQiuguqx9qSB0QRRPBzaoxYLIUBMq9SbajVm7RX5xDvzS0diuy8LpXtOSYp8UyEYKcP5nVX92c39xaqXUS1kjeyDZPrqxXcMs1PR1xnQHu/0Fq2LHnN+rx9AP6pD7Idr12QQxA2ZTNs9Ln+JH8BG3iGop42aL+FJv2k+u0Rg8BieX2i1vAzXwHgsshFU2t34szRsEKFw6EbhgDV/ok6XjmIPFcsK2CnHFzDcISa96G81FQWiM/zuhwW4hsBfs5aL71/aFqMo5PPRcQicBPx+pOLniBDApzPi5E6LqGnikRzcG6f4FWX4wdSL5RoDsAe0zu92akwVEa8NDVQNeZqwxhmMiztipE8ZL5GGCHCew7JVPMWgmqr85YkSxUJyiATDe/bCNdZ3DShYUR/YntahabgHt3u0fVjsEmPAYrOB+ohEg7anX+QMKx+yG15OhpQMhvZKkETAnQSwOGF8sbvi7C/QuBDFwUhmOw0htkEMq5V2rp0Q5sJvDlT+grhbI6V3sb0ppFpbAV4t5cHuSEx4XpY0mB88a1CieqRxnEL+xK0a6xbbFcW8pXW8+hPGfgUYAgOrmJCAI4Dq0R6WNU0IOgATk4jqWT797a4uocW2y7lFoIdJM/aaBRnN+VMqyutq+BqWw9ziv5TASMLtKumisDOkqk4q/4Sm/KNCc30G5UTyY0Z/vQ/PVnuOmJJN29i3v8Twa8BVnLIWrXkUQXltj2mOz7He0ziHrQjkW9h2SfdYf5W2oEUnkDqAENUOalNV/He9EDZ1kD8m1XZzVjtpGT44KWOA+WCs8o8/XDkNKFog99+oHrrTJLsOqoK6clJxgbJNE7UYvJS4WOEpUtbf755YCbD5e4fjjqSnZAvUt1lejrFd4A2ZVlVR5iDWdl9e0dW4P7D8579crAu4wD80jXadzszJOh3BwcHK47mcOQxy5dkEEOIx0kNO6SAvsFNbrt7MYBiC2s11jflIJrosEhZGazxvcgWfQvspIyxQ5mLqAJ55GOBWWMOvlj2hHwq+4G+BhlYx8gKNwLYo9OLBpqBGAXB5mF+7ekUdujslbG5qbah6ZSy4zVISMhmNzVhcJE2++oaemxE4a2tr0BINxSe1rpttYA+YM6lc6ApKJpB6w8pe1Mar543JIAxJrK2i3RRnnDjqbEqCjShgRYrnw7vvsmPpGERDcA4GkFLuqpRBjEJ8achRoX/QDPuZZ+JDfSjorzWK5eTGOYNvmNz1jhqQo6N5IG/cZzuW8vkJ0IrfyDVnkxQsaLX3DcG8EFA+4g4cW1BFAJZKdBI6SzCaIvaxZ45leqHENsCDcPudoSOKvZsFTRa3D1UwdYDC/r11/aAzgrpN/hUgS0p/gfOHY1PTgBFCkKLFoOYmr5aOefr8V3RoPjaaDunuW850Xtgg6DZEW3DINe94FglLgy+u4PDGmmvjWvO5U7hkTZ2Jyk7zGvp37il0QdrUc4nkcIAxl7ezPtf9JrbXLdjH5s22WMTW2v9KTl1Xd8fJyvQ/x0k3oLJ1qnP6TUDsOXYZjyOBIcptDHCDwGbfanWM6et+YNXJykZlb98+hW7obdt6HWy8L9lNtdFXpHHk8kgmrH2HKkP7ZpATaLbKKMfHqNwV+eKlWW6U0w==
+ properties : {}
+ controls :
+  -
+    name : IMAGE2
+    identifier : 0x256ac38812680dad
+    internal_properties : CAAAAAgAAABKkeHtJSNSp0ohax/ENhZJhT6jKfzBAyI91RFCbVKUgKFJHUUBM99Ri+BE7+Phtuo5k9ZtPVtZpKST2nzUSnrCdFpWPXE/pCiOlZ4wkz+lDmkuBk2R/sDBAFso6U9YCfS0xACPuboGT4y4fX1TjNuD87tf0malHnJtqlG9A04k25+TEK92xk3KW/r5EcDJ6tQXjsUmCoMLVy9+k9BdVlri6qHXCWK5g92eI10jnhbKXJphdfegpBCpdLSlThThRq/crwzm/B5Mtv0UMXrjjpdLxJZa1S12X+56GfYNukaSKxo72c8nOjqoCFgnnHuHZ268YLY2pl3kJur/6x7JWvzraIClJXu2+4WOkqLokVCPqRwKPRFLRdvDQJ+h7IaeStb7tnBiXUuHvLMTth4kNACRnfYZadfPWJPbd/A278mfuDjhb291kVyGht3Es5wFpLk8NYnYeEc5U9y1rUku5kgum10tJ86US4llbr9m9wOyGzs2c5qOy+pJXP6pUNJdi5TryLUmh8ahbV0ndHWw30jDsSzcOmI8ewZckMWwTOWKWsKX1QRATebMMpdO+suTOXSJe3bf6692HbuVO9XnzL9nSQIqhEVdzBWYO847F+dJNJz9MeF6DJ9c5dVLzIIhemh/bfahr6A5gjffdXPuhoNZJUq1HsQHsmsgvJwdAx05JYBXpVZfKQFhJ6x4kc9ZLc767Prbw6EFp9uUpZs1ON4Zs3lPxQXgWUpYPQ4GzpPHxIwi3b2DUCi6gqhCT6fPN+DGauDmfZD/zkR5eSh5Dr/lk21P10QMxpnVqr0cbMz2BsqGCGk4O9PleZUJGGQaLKLZxDIhQfDHRFXwfY/HGx7Dgv/YjBEBVqWCN3YqczGPC06pJPXsA7hbfM4j24WDa8x76pprOmUmeVJWcivFHxaiPnPrWeRQpIWC5y+NzfTArKkFokeXDaBpz2xEXxkU4zcep7t8PnhvyMZQvD+YavL0aZFVSBDoM6dKZtfNort4grGt88T20CEY06wwzx17i15KZpP7tUEL6kZh8ZnXqGKoCR5S8KUtCFME8VRzzFNvY9HPvN0CkJXG6olmvl+tL9w3BR0yXGNzzy5+bJFUQMtEik9x97K7yok3m6+XvDuvCxsD5JdxkJi9oPHsIxUlASQWi4cwrbNAG62TwWtbKdUgpuWRoAeYWn38Ch0/fhyOBCxw9ersByxczbIqHtMCDh/TXEomDMncU/+2z3UTUPg+AEpP/vAPFikt9gOqGaUe8YWzfEYKVPXq6tE1jDzt41Xg/wkD5TKBDRNyeiBVPfgvbksdWfGBoTGSzQJmkc3fI0ewi8ycGEgIjdrmuAuFfplKoJre5P5ph/eG6RB5zlRQN84HfNOb2JqQKHSWx+thlFF9IL4ZWsTcS+n2p6FFDWccHmAXTeALZY04g73TG9lTJ0ZQl70NpPWHjPuK3teDymekh/7vPS2oropglOefdggSmyyuvI/fJ0fb3i/fyyISmnRtLRXBYXAGbcah0QA0lgW8348RnuM9mwpsdlpTrr3ITZRwd2wddTp0uCHcwZG1+GvaGUiodETsI0tqc2Qo5mnsJ4rg/bclZRIGZo6OWKYXW+z6/OXzDHU6k4+4G2GwUVF7JVUy3aqVPBtBWImNs2ZDm8HXAOATwzM/k8RtZ8oGnlBWu0ITgyO8Cg9WqJZP5G+hIRgH4zSEMUxsq6o1dJHHnQC+G4ubQk4fbQZHomLgLH039spHLoQeVpG9olQ6943P8M9U7wQAlRGPP20N24AJOhKm1flaf1SHe64FOk5PThR/fdd7BZmMpdAqVPvjVyYV5f10uhh8O42zFiF3hcysNBaGRioLnFG3yPgKlLRsk+TWStsP4d+enykPCFf5i0CZTpSsm+AAK3AKqe4=
+    properties :
+     x : 78
+     y : 79
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "ORANGE"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_3
+    identifier : 0x256ac38812690dad
+    internal_properties : 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
+    properties :
+     x : 4
+     y : 79
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_3
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "JAUNE"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_1
+    identifier : 0x256ac388126e0dad
+    internal_properties : CAAAAAgAAABpu1F8QfaIsI75PoNQT5E6v6ZfKUWpZBxVRTQb/Cg+3RgEr6pp8Pmocw3KCArorzlxvbaWq/TmXldzQAnHZey++XLeDH0ZptI5LklGVkoSG5J8oO262PxjDRI0JxEpbDSb9HIKyZwKpB4riimp0+UMDuPcfhJTYuLLFmNZwoylW3pg57vZRCMwHiDFZagKDz0D2DDYTQ3W3RfTOaphO1nznpkjFMczfMA/cnVL2wFSeoIAsX3Y7Y6OMFAyE8KQSaiea399XJ0qVOi7aK4sN6/nXPvI8Fpa9+AaxQ50er1TfFiHyCYIiVa8+vGrobD++bW+gaB91CpWJw4aDBPwDk5yuqiRtLBh/gEkt7O1QRx0dZjAKSUZIOUxNq/icMHGHbLUpHJt9kcWH06SH2Diw0TQwxDnZUUSvIK+scU4T2V+VqOqi8QIGVLLMTty3K6lZkhAgy8faygwtQgmz2YjZUvEd/WATjAKS4O5eFJP1GkW4eJbYllNcwEajNbwyimLztBTrKVfE0q3MVjhrpuwuZ1f7q2mEqfbDatlBwQMu9RQoiFAh8tz31Eel7xM25s5n7gnRI4Y1Ma3skKOT3UjagXpDer0YEnn3TvHSUm4/yI2BFpXNSPLqm1SW5gSsDrrRYoJxwkbF+K2dcgfUlXxrn14EG91JJib+4XXJyAU0E0ULUH9BuwMbj1XWK48jxugJdnILej1WNvRk2gmESvhDd8RkLoOgtShW4nE6p4dGvaWC3GQOAuS7tZ/JxRH22lHs55j5BkOEWhfQIJRD7zbqfUSIh2B7ngE8qd2sjMqh+PRnpwXxU23UQRWzHiHWezRB0BU2tuEP5gapiCPvpv4+tKvuKw1KJdYUY0Vjokm2Z0Bt5wwB//AkeAMQXtFDu6nrZHmaGlgWKIcL9hlUp5xvYBPztUfvwy7Uv6zvSCPTsyq2Dpq0+ELYexwKzxDIM0yt8b8H3QLsUdC1JwJONlCzdnCD3MVM44IYNtY7Kx/DOfyVlPc8hsSThRWDDQJupeFfyr1Rt+o19pfVnKAqpXJCfArTsb12AytZN0BCKCFIVaInMKme5aTpgNJDHol5plvRR/7WGRdHscMhcH6QVgA2I6a/7RkpJLGuZH/H9cKtyKaUs+i/M3wOJKhL4kgXMrcZ/VG8rwiMdIvpPeS7aT8BfWb9Nh1TBtQS55KFGeObT3Bg00e5t/N/NjecnFy+8T1h8jQKgQYDK7SkpV6D27JZp0dLPX+/PlOBxRO3P2wUInt/K7i8Qviuso/XxQNDVrRSC2nj265w7yGvZB/BFNt/eoQBoxakMxD037yRWYz+daXvHHB7BFGW73EZZrf3g8A+QbP5xRVW/6yWSKF+MVzHQIKDg5rTylglidTxOdC6xg5jnYu3YOvtMwAQWihtipfVFPz958y2DhqLM/ICuU39gzqgPCHQei+cqns+oaIV3gAPaBwwYEhevY5gYjo9Ojd2GL0jYG58cqWfOK4AL/Kx91igcoDI8DCc5wRWe2NuXrSqEcvAvZhx4nmA/9Vwti1jUh2mDrSEvMoC3+AJPtxjvOV+9Ip+hxdJCUclVitugHtVEYL8LRoM8Jcg66waHLk6vugJWqwD7QkXLUEswjOOHkI2w0DeeE3q9GjWv4kZ8gbPZGHiK27LrTw+E40i+lUG2YHTykNJRnBBpQHwLHYoj+hHHE8j+7NbO76QdTVzTOTdRY1aKcdQTisTSi69ZIUrJ81KFmJ/lWXLW0RWAQn5pctlqBkdnu89a3q8Vb5Db9mtGifCcOHWX3/Edty7OcFmm/gu7VCN6Mnte7V9iJCyEC4EPZtpe8Gg4gtWvNmMTkoj9fEsildAjqaMFLNTKq8zCGyqCw6SblJfLQmMWEmZ8Mo3qR7ANd5AV5GrGW482/e1/UTveJG
+    properties :
+     x : 4
+     y : 48
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2_1
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "BLEU"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_2
+    identifier : 0x256ac388126f0dad
+    internal_properties : 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
+    properties :
+     x : 78
+     y : 48
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_2
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "CYAN"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_4
+    identifier : 0x256ac38812700dad
+    internal_properties : CAAAAAgAAABz7hSebIweagTI9MzD0o30olh6PhMExVJrXn/LJRqvO8Zg0kjInJ+Q6BZx1C3L3amBIkY+ALxBntjM1zd3gpLYS9yXzf06HM+Q/Q0DqKLI7sxbQ1QxOZCc5FSthMfyHLdMYkSoAuX1vboZ5Is8tltoaiuVX97lin4bFYKXKilVf3pvVM2k8AkC/UuE98GEQoNThfG1cbC3oBHCTRDBJWnde2V6AfHIMzudAC6fKW21Elp2mI1i8sUsCw50EHgk+zK0/+ils6wcJP9VKHuxx25kdkkraSuEVHfnNWm0V4pxdrmCblcjnsbPrHVDOlQDOkZPo8WbtVqBuncnJAGjMU1axE2UBQ6ZbT6+Lkm+LYEXREeCda315II7aAcB4HMgxl/i7OYXuGf8XSuVy5/m7gluX0UXRPu0xAEV7FiAKmyXMoSyMFbs8A2BgLHK7UMuH2jtk8MUVoVaTQG8/+DYPNuSo+cmpSeOLDVT6ckUU038JnuY4xYMTX/EFBQl1wZ9mz37EgipvVEFDpQEP9KZ0+X4BHCl4n0nt+tcxiWH2MQBzg+U4ZLnM4CyJ7FnFJt/XSjCP7F19Lpyb4xGEnaqXPDcAlKPrvWCFXqj6i6bFoeU8ww97tlQw8eFcOEoR2UBZdXmN/TFCku/Vz+Fadp3Aa9KYKnydJS0g/Ik64lye5DDiys9kj/vJLhz/sbCxYjNWMRB9LJr+I2aK66iQz5x08YqfGGrIxOFKJbwMrKtN/hF3Dtlf9nfujUxIM+clTpk5A8TjNEOJ6G8Ff2Hyi6ZPqEGd2v6sMvtd5S32jC7hpH04sdmmJ52+rXdXnjuulM5fYB5Z3oi9gxDTdxfvXE4NJOdD6jmhhXEuvW63qVjxrefy8eFcLSHqsLqRAi4bBDjAkoySAON59L3XbCBRzN9kClOntpzdOvZtmtFULHUnzVqIGOfBbMi4fOBDFl/WgPiVamIZCXF29HoCRKCMoa8HQjk/YPI0ob/spC15aSheiwd9VvewnKZ/up2lY9jiEFAqZRN084KjVveKuPBBqJaKKb5QhB56AAXLp8iE61powdQZ0r9EkQzcokGKMgzUsE7hgGWdQLEHPwWrrYs9P6G0FG/WQwNw4ZFPu1sUUUTux7N5RXLJkYOV6yLzUlirvy9JzOVFlJPVNfxIoaQwNEUbpTVpvw7kYTn97Ez4cwgAdSZIC2bEJZxt4oW4vnvgMM0x2W/RLabRsy0FLcOskxBkfGUdginUKRxBcdCSlqS23p+nkdRSL6QmDHhUzJbmSAOsNJIVvvsQsLNllmyyNQsAZtxLPkHoNjQNAJinkQJvmQ0qLkF4m/A1ePtjXBEFR7GoejtdE7PITMiTM210Jl2mESav5u1UXnKS2O4S6U5uP4g1gUkWEvXzWR+w29Ic1MZx/G8kzk4BLDRjfYAvrfpyrLO8WY9jEhlcGwZUlSD/ebDgXz9Gt8oboZxoebIs3HtLl+E6zLFBXCusihTX6eP1SXiU35nCI6fDmD6GCpFFshInhaRgRDDm3lZqt1SkvY2a4F16scoEKWcVraSIwjEa5/2ouAJmvuhc7ZI4eHsuSsmp/NxnGg4NpxXRFQ0qQjFU6H0YiHU9X0e6GCN+UaweA8qFN93UwcTzCWI86rQhCSuE3Bttvj+n/89CRCqR/uymt4qKp74BniG4UCxJlTiYLWph8SxIfZzvBWYu8oWjrJuMl5ULOwWyxHKcRk9ZMq5mW95wzpCXbXRovU1Z/q3d3X/xFYWGU057NN/9h/JH1ZfScJPkkEFnA2qy1dkGzf9vakY5uvc8CKzxIEICDeHmn8OAr3EUTPdKQE9Bc7cXsAAF/bcW9u3MFBCL4gMCarmCoJFn1LiXnbNqc/ga6zGwcrUKeG54ZE/vyyzQ3viE7tlLzk4vSznHct9KMzI8h38xNS2Y+75
+    properties :
+     x : 42
+     y : 79
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2_4
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "JAUNEDOR"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_5
+    identifier : 0x256ac38812710dad
+    internal_properties : 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
+    properties :
+     x : 42
+     y : 48
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_5
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "BLEUPASTEL"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_6
+    identifier : 0x256ac38812720dad
+    internal_properties : CAAAAAgAAAAI0Nf5pJQtqHD6I+p8CssmfiCuOS20mKcI4u2VLd/DTd3CMM34eabVOWCy9bhqA+7eijROr6HuBNPeOFqT7BVT1dcWzUQ4dlX2g6lsJ0zjmwZ7rxCDhTjLj5UAOdS5BHCecO7lSYZ2Mcn4ynDAM2t2EpJH8SWPF5fEVlYYES+DePxjxEUlOjSpWGEE8n4eHUHrM3Y+ySvEw8oTsxIGGOi+qo9gLHz7Xjs8Kx+nbRTRb0gKjoU3jNqyaa1TZpsfyFE+XAu4In5LkWtTwzZNkzbSxgFpHxJpd/54V551ogAMt+yHn5iT0VrE7qG0HFHLu5FORlXLs67FVAnavlERUqu6s9x0XWQZJ+Fcd/2pHYvh1vggtJqgLfpczCcIKGv6L7B8g+9MQL1hZl6nA2LGLo3k0hf85FgczM/gnMAQc1FXQnsDo/Lg9vVyBcemF8L2KVMfshAnDpyQvSaBg4H60nLPu/61K9s3JqiqYfPUMKoKtn8SQoEsIR1UjRxetGrNkU0CJQSWkG1MJaIHYVa6JTtIOsWn93F0vTkyrUcydCkPf+tmD9mxJEO41uTax2ZfNdHLUlmIRT6gyoBOnPgqF3Kep8AbrCNnfzPyfhyT74u6rgOTWIizJXYb7CsxB1j/nq5oaZYDOR65wBLfCFFQXHvioVrXOuGQlLe0S8aY9v0SnAj2oNyzI/9e7SFTK06Ta82i1q6gTbmCSI2msA7zkejIOHTFkcMA70/4Nejx6u1VJg6HeXCBKe+KjXNgS3stiJkPt8NSGgyZJh4IjJCzPx7Bo6YGSJCtvcyCUSEpVMoA2lfyUKTX/OEw1fe70DnW3IRCa5rGSuFWBK23MH6e0ogXmJKVwcF3zZ+WmwoiTWk1jqm+RbMwO1sV08J0ce/L43QRhDb1GBJfpczT3G2HIX9YpqZbIpZhK4etjH4bdO28FnpF1HsbN4qe7y0PLoixgydYVxtEVtBYimbtEcQsugT5wzhB7tsEyVLtZaOrpz7rmE4Ub3AfdXKT/4mSt2iakQYllkk8swRuUuG0Q8oFA2MJg/hmVZeloa0FSzy7wzmItYfSRtQBuhVWvWPkAbn13ArbmeLyMQYQvpn3B/a8TC/qLk8DGB00ypg4klDYTSE6i91mCuR/DipmWv4kVl7DhfL+Dp6wYylg2QBB4O12Y4AhJ0L1K+jL7SoQhGvanzeypfW2iwX98nFIbpgKFgQbtVB+Jg102WNNpIfGn6al/V0qd95OHLoUgNhDhj9T+CXfFqbQUVWrkO0B4eBvC1Be/LIexYmSqhIBUh02tMbSy83ddkOc7W1rqCIy7zZBKBO3PemzA3u2oZ533Wx4psVLfGmeskN03qT2Tsl16ajDfU5AbEs9llSXxWEsNKoBMAvnvqDZnpS4SrPPYaqEKSpswzxZxqpqG8xGX8x1PB+TgbJb6WZHVza2fwnRq2OI20bn9ygHDGaq9s2rzGJJSd8Mp/Vr9FVCTSNAMqPQt0o23RgGEYRrSCCXigWmLJyiPKiguwt6VxWhJHxRGJSGPoRajjGhPeEO4NsQlth4GO4FPrzycXarZ/6huYv79E50MBx7FOT79vdWEPjyX+yzpVXQ/X0hyoBm8nK81y4vtanL50MWEh5KkZjox1SOo3o6fLGw6NA2Dk+9E1dkSu1GP5g05qr9DSV4ow8u3NSb4hhTMdPLrUpTBx9qDvMlfpZRN944Q1H9za5EEEn+OwwzhhUNzGo49+7I5tN1FvjIZxFZ8BQe7MKrv3K+9Vned86RFra8ztdeijAug+AfyK1rCuCADBzlLxOp7Ylm7roZkQxjKvHMIpDroHZ/6Ml40Uq7xwUPsTHiaG4uHS7MPMvsqtu9YScrg5sgEmjlIEPDGVFd0EJ6/VJFlsRdPm7Orql2Mi+Y7S/4BPE=
+    properties :
+     x : 4
+     y : 110
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2_6
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "ROSE"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_7
+    identifier : 0x256ac38812730dad
+    internal_properties : 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
+    properties :
+     x : 42
+     y : 110
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_7
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "ROUGE"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_8
+    identifier : 0x256ac38812740dad
+    internal_properties : CAAAAAgAAACHgSvKNwRmXiTnHK0+offYpZRJN7OXcorzIxLViqI02+Z6qVBv9v+WqcuGwthS1QdP3zTcWeZseG3tRvuFf9r8B8yUimmlfHCvWiuykS3aWuLCxIDVNJ5q5UU/PdrWsXMrAs+DoWSrldFkZQUflm60FSpiBE66z5eeQcl/ynBSQ+ImMbpwIKnTmBgCy8g1PDVhYEAwyQRJXQtqw3LXH2RYcUdPKXPCOrt4eK49w70CWkBzRFGWXC4ydQ/fdK5K69s6ujBxhBrGARcz4FC4BK/IQ1/51AyZh6F1S1g6XT5gXZDWRK/Ny7EG9IRI7ryrFZ0mU31t1vDmJTYVHjnD1FyLcd5FmA6+kmhT3uIPmpz2li9EARU1nZJ6YqFBdR4taSIhYZJ9I87CsZmUdHzCF7l94iiTZWZIQc3wTNtG07RYKVGGk6M1fZj0gftFoKZ3WLZVwIOr1sLz3Ej8KH6tm+URvNpj3jgdRqtX1gKPjmqg9i4McP2VexqWXoCiupuGKCAgMuEtNh682z+fdpyos6b/1ELDs+zUlpkkbUoCwKpSqs8Np5Vd/GRAveVQpcEVO1xh+MBMJhx/eAgGL9/BvoHl/56GVI9dXa2V+f3WAbLiWGQb41vdeDWQ+Si+pmRvuS7bc+vnSYTat8b3Qvc/sskcYvsz1NqFr2vhI2yyMgFY4ZNZ9DymkJm57h5EPSXwAX1KoT7d6oHJoQ6mjWV3oYPV8m40mobzd+OqKqqjpBJOWyPE4heEoEKdtWRH5S9fS+4xrE+OhzordnC5zxaRcck+wO27IiJqEq1gPmOoQd/twqrnFyFN+2gsasDLg1IVL1hyQm1gxXaCAOLbFu2OCh4Tthy37EWeuR9rHqHkw7UxtyqAYSPWu5TSc7/xmLxz5VmoNJtsYrAEmfb9duQLBRTrPBV1J27RKtjteYhN6BRyEFhKEWG5XwTOXYAmB+4/aAObsCUagpCJp/vYk4AD4gLXwiy+SpchBwLzl/c+7ezvX1rtm9pjF9uhW8OsXRw2zNNss5S/kGP28RmnHfAGKsmYzbvCt82Gy0x4f9co7oehkTmTgJ3kT6qAPy1kqa7QmuAqjVEsjxBTXOAZHAfpbXv7ruUdz28jHGzSUpL9hGvLF8KfwZBVPa28QjyLJ8dFhMapX3Ht1pfq0+5J3FexvuqMxynWx2A1Rp11716JGgY2DJRTW35uHXdxmXilhkFWZLnzSwXD4XON0SzR3oXaswaiU4oj2wIHTs9140Tv8S6+gTVzOkorM7EmtmscAK9CIarCII9U8AHBaDf2o/7KXkNdlZG3M8lo/h1V6LGWblccRYhSZbDfbMw/bAUqrAFukogTma7cBBtXbJRJcpHMp7qdMiQqxS1UUVRCTkeC2h+TNHMx6HTJaKjdhIsoUb0C8PWvve3LKyoAncJ/73b4B5gzwXsFoJo1YYIliQSqLw1KSS+f9OUmL0HwNMO6zn4QD8nevICUfFY+5S/3Ny3WHkFCWMca3LLVt8xJhbD455YCf71hnF0LAWuTn6yprJbklQcVRTkrdAaD9p20GR9u8qO63DvK0Vpav7zuL6KaW37uuTkwfsx4C8ad3nxfdIo0ObiMzAGyP4vGFU1ML8zVFj3tmuKls6C/E8aWudGj9/O2S7nRL39n68vTnwbLwU4ZzszjYz4TgaU9JnRllRK234zB/EjDzGbUZJyABczcTDhNjlGcs66URvSlHp+GeRyZHehPM5K4S2h1gfuLatUNi1f80yuppnp1HdJBcOz+uWQAQHYa4ZVFrguqF1Oj2HNw3eJ00Fr9iCXPcqoLRDJWfNRyTCpxpYO2o7wRrhNm1cFYK1M4BlnBugLedBYLDnTCxh+wrio8S79TBgL0D0PA/bUe1JJpEsFX40BkikOandVwZWOBExwY
+    properties :
+     x : 78
+     y : 110
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2_8
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "VERT"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_9
+    identifier : 0x256ac38812750dad
+    internal_properties : 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
+    properties :
+     x : 4
+     y : 141
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_9
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "VERTACID"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_10
+    identifier : 0x256ac38812760dad
+    internal_properties : CAAAAAgAAAB2EttTXhKhZWDgm3y1CfPFvBpQcJ0TZnw/zVeb9MsrzjXkFLPnoh8Kfmxm4j9VRPMh2aZIpL7EfCKbQL0hYc6zy1G4r8rg79V067kKLsTKVSHsv7sqVg6kEkDldtMKvYhG8VW9Vee7//hZhaG4Hqaf3jlFAf8jGaxa8HZHLg/9XLRQ9jb+AegzYc4dyUF8o+L+d6TZn08RnMySza//h1qIRoJoZVghT2EwB9SJPm24IfA95CVCKOuMXaPseC2NPOEX8QO7WLCI2r0vFb4HHG7NxMb9Ehw0JZHoM1s/IR593H8t+4O2Sx4gmYKiJWtCJTAwuFfH/G79gdi2+1zbdeZpuMEzI2NYhVnV2l+93HT+5oZE9sJo8txed34FXDm05lvLFnz4jGn7jLtzL6tXEl7cl2CNbjwpMSrF2jhAuv6wgNfhtydLcsGYIYApcz8syWU4mOC6UEc9fluNpY1T0V6xpFiGGJK1QndqHg4bDr2izsGBWlWxy+NT9UhCfgyCTk6OW/L7/IemFyhgB9AT2Ysvw2rnWywdsjxei5it6cMGNXRoPYe6DA2fdIvNHsXfjSwyojRS5zNW/ef1BTpVFDwUlekuQDnvNjh6nqYjUSizUdrkpTsVRduZdTcC5nvvZ+NwNsnLLJI5s/6HW2fu76SVPd4ArFOC4i7os9ROoLY8l0MccrMdVBjnnsw4Zv2dPceh7Ml+01mujlP6/szUVKmENn5x933eyUvxAYe8w0b1xUmEeZbleamMgjtbqDqllEaYFFDgZBFZ+izh8yGy7lITDyBVTwUm6laCX1Law/8Va0PItmC0H4GxiexjGnvBHu9pjuh5ROBFopss9sVfg9VOOSTwfC1qN0TZoVu09sErQ3itxLv9INuTu+MMiP6rQS3id3zUhLLpiwbLqqHC/Y3TJD4V0tHbsuj3+9/BZk0v+JLkn2OqtX9lvrTfZDVY19fqhAi6uNiv1F5d1fq7q66ALf4TCppaSawpLLaSaYrTWbG10lgZBYJEigK/JMWoPwMB60Xg3ls9EPuFAaUx96HzO3oqEQnzJpRGSS6DPqWtKqpOZjOhBsRP4TXbwH7kN4w9MFUDxt6USdYX5DfYaaJCR1qvp1/OysAEBru+pxQsWoaRwpp98cOho6D+OqaXl7g1H98kSBvDaxqAQOd2k1oj8aG3Jvi0sON5tTv1KWTUmwtKUxFnPwtE6LRW1pKxlgX/XmcWZbQm4oLcFhfEAphQcrrqR3guNARhm8JAJZueE5CfYf0kDEgUnVc1WHmBUZmII4bErGy29TFcMbY+c8sj4xoCX8sxSHZdl7EWwp9tk/QWeJSQt4TYuehP6Q8daDWtRiGCpKzujwsNcBhF03WXyTS1iIUE1cKoSg37WTrUxH3Rb7aJnaI7/F+PC3FHhAw+m+jyKuChYEAAl55Jj5e6Lv4CBGudyN9TbCVb6Nj2Cotm5FeLoVGsDy/wXHp+v8P/c11CFItMuLrjBSQscri5XD3Fdd946QmQ/hFS2NLA1iSYsUHdtFRokGLpr724h3pR6DQA2HVncBJWyV2CjB5su7L1i9YXCtlmUdT/I9kURTA4lg6quFzYloShQPAhX4muMqh/xEnW3DqRphLPHrKyMwEIp3/uGrzyxaT1dPVlbnSjPUn10Pz1/N5nEaggwqeJk7UAXd6leZ1woZS4171d5jnth81ZU2AbVu0ixjonXaKMdiJyGOQ81vMmit8s/DCElMBrhjuyYfEw/6a5s+/5F1oXKOsJeC64J2EaTJU3/weX6uLy8CDfLx2Tf5rtLm5j+EtlBQQdTV5V7kjyZ5FN2wbSZjqy4S5wmK4PcFOMYyvIcHHNNn1qI5VGlAn3nXGpAWXcv03dIgq4ZdQEhQWL9q4kkw8d2+PVqAZXMsO1vb5xmN5tihnaWEmuJQ==
+    properties :
+     x : 42
+     y : 141
+     width : 29
+     height : 27
+    type : 22
+    code_elements :
+     type_code : 57
+     alias : IMAGE2_10
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "VIOLET"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         ExécuteTraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 851984
+        enabled : false
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : IMAGE2_11
+    identifier : 0x256ac38812770dad
+    internal_properties : CAAAAAgAAACBXVJIdMYKikmmuJslpam8P89+pD73uTkOzVJ1GZd9Q3kUea2KTC/tRn4aH4b1zt/zvLN4BQo/OrHJplF1dcj4dnKgCfEZoTolyCi7x3vsgbtc3zWYGqrti+exvDME8IfKpcDmdvH3cPDGHMXXx6OGdhLIS7Iy2teiKkM1ccgq9Jc8AgmPJeKKFDQby8bcxVM7R/ejCjlMoWPmuHW169+3XSoSwa9ouxw2t+Xt56+O2jCbW7Y/AgblTzG6aVAyt2pqtNxEnWizd437a65rQ//0/nShIYLMcVjeEYfyH2fFjOooro3oT7LK9+UIN2qyTV4okPPbUFN3JQcsYig5QP+9jHc+vttLNQpFrBogPmx9yEDltTiDVR1AspOKW19kwK0Drc0uPX2h5TVraPuc4QH320U+ZciKv2YEJ1JzzjDgU+W5JolneVVa8dMIOkonMHd4uTrphQtT9KbLKT4pB4j1h5yerem0qpOtncZgul5ha3ptZCVSVYt2BFA2qh3sJttdFHwNM2f/RgGyfOXKNv4xE6pG6jFws3BEhj3YB4mJytNHNTWSd3LXAT3A0MCBjj6ulTa7n7IhlI3L/z7h/cP7MHXBzkc0F+LVutbAV/ZQTXxqwiTbGg4eUk/XYubq4Ac7ADT85DFRsRFpiHTPvafNj26VtUxzohZ+ZruiALirtETbUbcdjg0TSnmD6KHmFP7nF2RtdKSkBxC7Qv6LQ2VPgQwZhEBA08kvD5hFK0TcOONvrtO4+iLmT0xG0j1PklXP5t0jVPXp8YvpvnnrGyeOmcFcsc6q5j31ExY7Bt30Mt0pdsF4KwXDsr7EfqlFc8tjJFQvHCYvgyvp7Q8RUx7kEbk6W4sVAFoR12Wdkhyk8VRvO0K4stMAghc6kwtc5KlelrFHXuQwIl5DYd95w4YrUxXUJBvz8HLNWjDcyDxXfZz9OBxIu7I90+biulhdMe38IQ1hTLYTxSuW14Z3IxdEewtyQ2CISuYz98MkuC9hB1LAl06nxK0nKz6y+TnYLmtZ4T7EpyL3Bvhiz5Hp20QWYOBzXk+CZ1OASn0dYgbDj+uD9Ss7BStU3Im9wPLb7FM2MJk+f1gLA+fW8J0bgKJGuev9Ts7autXzeJcV146OPxRYQ32b/j0muoPlscgpiLWqWd4Snewiqr/ejaxhh27geJBxQDG6DawzCX0UZ2g31QETHGBxHrbDUpb9unpkXkV/yECU7v4sNNZfS9I957WBMzs9HWAZC8FA7MdUbVFnAhFOzz0MFWySUi84WPhpkLFxw3sSuzm543IiFq5gOvky6za/AslNK0PgyWSnAY0mDflbXDLUirIAcYE1Wfwn5w0eT1zpmcRehCHqONj+ro0AixMZSsP0kwrFDOeDvIav+7rQ/+cd82lQKUf0O9fXOVGL6vPgLGku2DV1oJ4J+U94PS/nULXiSLtGqbthWu3Cb/CNt5J4b4zuklPJLqzjIEr04ABujMPU/UrVGlzOKzStPNSHu34OCPnKSNiyAoKaGF/SsaDyQbkqADCzC9P0Fl70k4mUJgbu3aicvILssBDmEdKdDhB8jEX/w3Ubstj1mDFTv/DVtaoMfxLS81dj/cIw5mIPBDhPe2XBALWaTqmnVuISwWAC2SHA6TWU6tZ+x404zaeCNNQIPl7o5YeSfhEtz1LPap9JqMaFBlyrMGmMDy2oPZymcTeJW3tuCKh3cvGcai0dnaJ/vBkzo6zXB8w1TwZPzsKiVu8OGasjIkMElwLbkbIb0qJ6jAKvr/sedrBe/zjwbEqROJ/RIWLsxWUrRP+Ug1/uqGCg0rwE+VXNLtR3S4K1utQ9n5ru7Yi4QSUB0gKOYHTK1x5DE0GMeU45fCTtJf6+sxs975UjLt8R8bYVLzTjNV6IW6kR3sFM1zKdJXZykCq0MVNGwTXrm1AfRJUfsKpKXbkDXXp6RdScAhKcMsrLblF7GInRvuWrRodrXIV+OwHmQ42XItlSqKkaBYqJK3HL3kV+6h5k0tIDRA2kkWvMczSuxZ8D/eZpWuolouc90yIYPs4+W/pnMsWgek4dMYrEGHvZHeKEMoj1hl55DmWOoxioy0J30WliV+zwnI7exhnzp3fE7TIrn/QkXH0JTTLIBx8toCaxwKOeQWAkWR2ynb2hRzrSNBZBT9fkBOZ1IR15d0cVMc9VWD6tLmEQfYv5nipTPNc400fyqXGeQlaqo4zZ+V7LksZnzQh+61I4v39izUHvJRCDgPDa5UGzhI4usnuNctaud7putogopcsVQUZmJw8aYhTr5e80SJfy0J0dqKVueaNCw0T2Sexj7OO7Ec779KiyROtAYX+vz4xFg9RhgL1pM9HrR4GcCeZS6NfltJSM+Bg=
+    properties :
+     x : 78
+     y : 141
+     width : 29
+     height : 27
+    type : 8
+    code_elements :
+     type_code : 8
+     alias : IMAGE2_11
+     p_codes :
+      -
+        type : 851999
+        role : N
+      -
+        code : |1+
+         
+         //Affectation identifiant couleur
+         COULEUR = "VIOLETPASTEL"
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //la valeur du booléen au navigateur appelant
+         executetraitement(MODIFBOOL, trtclic)
+         
+         //Le code de ce bouton permet de transmettre via JavaScript
+         //l'identifiant couleur au navigateur appelant
+         ExécuteTraitement(MEMOCOULEUR, trtclic)
+        type : 851998
+        role : N
+      -
+        type : 852178
+        role : N
+        enabled : false
+      -
+        type : 852179
+        role : N
+        enabled : false
+      -
+        type : 852180
+        role : N
+        enabled : false
+  -
+    name : TITRE
+    identifier : 0x256ac388127b0dad
+    internal_properties : CAAAAAgAAACQcn9aGaTk4aDgxpESBkb0R5z291ZQbnjkMP4WJzw4Z9A9LZJW+3wE+wGhpTAre/0X2Wk1naoKrq41j+ue/3V2v9EiPIo3/NqsSagPsdfNww/M1XWCGPluEESOAm7U3SWk9/caMcD2UPspBFn8T9hD5uY2wnhBePYi2vU9eJki5HXlHNMJNA4hPsmNtkkInPE8/1e2xTRkjsqQFhLwWLcbiVE2Xy/Tio/uVhSyQgmni32U6QvY7bDEwEh7ImROs+9dONJ/PXYACdBRLkws1eq13SEVi8S0x/5h0a4bLsQaluUaWmXCUjPTPdeyUlhFCx8JbpbIWA/FOIJaxNFrK1djJbD5kRy4fjNuM5afHXmGfnH4EDoeY+sxSwoUxjR6jBzJVe6zjwwPzPb2XmpUbFH/m7HPeiOmYn054Txr2470rw4GNJmNeScS0WUdG4v7ikiPuEXwMLx7WmARQYTaxlODRFEl2M8UzIZDEN6iZv4JC3TtmkLBVfh3HN15KNZtsgN7wX/oCm2mas2Vpafhq/FHLOszcy62jic5lxJoGTlrmM0AsZo8JXSE9IQu8ZZxZUyW7gCX3GT7iq2NXxdkX38L5p1yA4pYXPBRyiybf4e9qbF4SnewDWAEXuGp6GCiaZ0P420Yjp8kUfYhL5QgVZVVsC9ax46LHExIbf0NE8sqPvpp0XWX2UbILZ8xfa32j4seNaTJNQS4uITRzg7mM6BVWxF71jLLHlHd2bYSh/HGijzvEYhmDkl2HEYmNRokr9avM5chQvowgiGPWOU32N0g6QUdJFoQWllRu4pVSFfxOYPzBuZZt/SlBHWcpEKEIV/RR9pBQZvJ5kgiwNdTC8BM5SVEGjWbJZS+dstpYbuldVuglRLDM5U1eYnDmnb0pGP05DK+mAgPeZBspPNfcS8FPmPUFQONCZcy6nGmNRckVB/yfGdqSNeFTCRP3QRYbxZpQ5bn6GrTwZAZuNC6TV0zhVqbImkTpr0GdFsVEtVgaO9EDGPUp7ZlWV/qniRbmnbPz91Yya+EcWvSIRGBGHeWrEQIxycJrsU2QlhL9w3AQKyb9JbEyI/1AZhFa5C+8zxYDxhjNH4ExPRa+FZ7Gh0UqnJS3xjIM6mnFd18e5cU6vgJ1dNDqZf1lb+HDFIgAAg/Oih6UsrXjtD5EtpuKf4EMdyjaw7LYRTQ9/uREEu75V7muUDUz6LOAuS3fks/ObJ65nDXXA4d8ZivFuDkFxLSGQAdk2jB/llTccdu+d1ODLw6B3EwfK37kt3AzhfYul4g0tZU7wgE8FGqjykibcBlLnZiFXOMGwzVYE1hEjJWWQLqFJl7aTwd4XeWYJ0RA0VQdnAFmhEU5jJ0QN1AdEwXr4w/QFteyixN3ve8g5I9HGhE/7daRjn1EcvLILnLUaRYk86R89B/T/8TvdM3iPZ3Qwm+vVtEbZiO/EbxOXbU2r46U+piTPj5EqGK9EX+bxRK1SbG7M56N1HaE/2qq81HCZhPsIqR7tZZ4nT6cQymDA+HAIehsUTHlJJ9tbpYRBpwAImSz3dS048Qm3o5y5m4P0a9AGOTqb4/Z2/9Xt0QJ9nCsk/wnPs=
+    properties :
+     x : 1
+     y : 10
+     width : 106
+     height : 37
+    type : 3
+    code_elements :
+     type_code : 2
+     alias : TITRE
+     p_codes : []
+  -
+    name : COULEUR
+    identifier : 0x256ac388126a0dad
+    internal_properties : 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
+    properties :
+     y : 229
+     width : 120
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     alias : COULEUR
+     p_codes :
+      -
+        type : 852010
+        role : N
+      -
+        type : 852075
+        role : N
+      -
+        type : 851983
+        role : N
+      -
+        type : 852009
+        role : N
+      -
+        type : 852244
+        role : N
+        enabled : false
+      -
+        type : 852246
+        role : N
+        enabled : false
+      -
+        type : 852245
+        role : N
+        enabled : false
+  -
+    name : BOOL
+    identifier : 0x256ac388126d0dad
+    internal_properties : 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
+    properties :
+     y : 200
+     width : 120
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     alias : BOOL
+     p_codes :
+      -
+        code : |1+
+         //Initialisation du booleen
+         BOOL = 0
+         
+        type : 851980
+      -
+        type : 852010
+        role : N
+      -
+        type : 852075
+        role : N
+      -
+        type : 851983
+        role : N
+      -
+        type : 852009
+        role : N
+      -
+        type : 852244
+        role : N
+        enabled : false
+      -
+        type : 852246
+        role : N
+        enabled : false
+      -
+        type : 852245
+        role : N
+        enabled : false
+  -
+    name : MEMOCOULEUR
+    identifier : 0x256ac388126b0dad
+    internal_properties : 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
+    properties :
+     y : 258
+     width : 120
+     height : 19
+    type : 16
+    code_elements :
+     type_code : 47
+     alias : MEMOCOULEUR
+     p_codes :
+      -
+        code : |1+
+         
+         //Ce script transmet l'identifiant de la couleur sélectionnée
+         //au navigateur 'Menu'
+         //Ce code couleur est stocké dans le champ 'IDCOULEUR'
+         opener.document.PAGE_MENU.COULEUR.value = document.PAGE_SELECTEUR.COULEUR.value;
+         self.close();
+        language : JS
+        type : 851998
+        role : N
+      -
+        internal_properties : CAAAAAgAAABvhQpwjKu/fxiiCXBy5ZViT6d7CKKTbCoGRYEqD7zf6STCDmX0Ijc4NTAVfs8EoOT8iblTBicypKDvEPbLwEogmC7B7dpCulq6bJYFrQ4sns88rKCOCQ==
+        type : 851984
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+  -
+    name : MODIFBOOL
+    identifier : 0x256ac388126c0dad
+    internal_properties : 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
+    properties :
+     y : 286
+     width : 120
+     height : 19
+    type : 16
+    code_elements :
+     type_code : 47
+     alias : MODIFBOOL
+     p_codes :
+      -
+        code : |1+
+         
+         //Ce script permet de transmettre la valeur de ce champ au champ AFFBOOL du navigateur 'INDEX'
+         //En fonction de ce booléen, la page du navigateur 'INDEX' sera rafraichie.
+         //La valeur de ce booléen change lorsque l'on sélectionne une couleur.
+         opener.document.PAGE_MENU.BOOL.value = document.PAGE_SELECTEUR.BOOL.value;
+        language : JS
+        type : 851998
+        role : N
+      -
+        internal_properties : CAAAAAgAAABvhQpwjKu/fxiiCXBy5ZViT6d7CKKTbCoGRYEqD7zf6STCDmX0Ijc4NTAVfs8EoOT8iblTBicypKDvEPbLwEogmC7B7dpCulq6bJYFrQ4sns88rKCOCQ==
+        type : 851984
+      -
+        type : 1310736
+        enabled : false
+      -
+        type : 852149
+        role : N
+        enabled : false
+ type : 1
+ languages :
+  - fr-FR
+ code_elements :
+  type_code : 38
+  p_codes :
+   -
+     type : 852300
+     enabled : false
+   -
+     type : 852017
+     enabled : false
+   -
+     type : 852119
+     enabled : false
+   -
+     type : 852298
+     role : N
+   -
+     type : 851999
+     role : N
+   -
+     type : 852000
+     role : N
+   -
+     type : 852232
+     enabled : false
+   -
+     type : 852167
+     enabled : false
+   -
+     type : 852169
+     role : N
+     enabled : false
+   -
+     type : 852225
+     role : N
+     enabled : false
+   -
+     type : 852227
+     enabled : false
+   -
+     type : 1310979
+     enabled : false
+   -
+     type : 852228
+     role : N
+     enabled : false
+   -
+     type : 852217
+     role : N
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : selecteur
+resources :
+ string_res :
+  identifier : 0x118542cf00099091
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+webification :
+ internal_properties : CAAAAAgAAACYzxT95H3qP7nIys4LqA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
